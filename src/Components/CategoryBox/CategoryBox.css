@@ -1,0 +1,9 @@
+.container {
+    margin-top: 30px;
+}
+
+.categoryBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

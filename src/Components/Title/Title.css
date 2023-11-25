@@ -1,0 +1,22 @@
+.container .titer {
+    position: relative;
+    text-align: center;
+}
+
+.container .titer h1::after {
+    width: 31%;
+    content: '';
+    top: 17px;
+    left: 160px;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.105);
+}
+
+.container .titer h1::before {
+    content: '';
+    width: 31%;
+    position: absolute;
+    top: 17px;
+    right: 160px;
+    border: 1px solid rgba(0, 0, 0, 0.105);
+}

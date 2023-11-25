@@ -1,0 +1,13 @@
+.container-type {
+    margin: 0 auto;
+    width: 83%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 508px) {
+    .container-type {
+        width: 100%;
+    }
+}
